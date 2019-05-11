@@ -1,13 +1,13 @@
-Subject: Security camera (fake)
+Subject: Камера слежения (поддельная)
 From: 张杰 <zhangjie@longteng-co-ltd.gd.cn>
 
-This product is an imitation (mock) security camera. It has two blinking lights. The first light blinks in a regular pattern. The second light is an internet light, so it should be blinking in a more random (intermittent) pattern, to resemble data upload.
+Этот продукт представляет собой имитацию (макет) камеры безопасности. У него два мигающих огня. Первый свет мигает в правильном порядке. Второй индикатор - это индикатор Интернета, поэтому он должен мигать более случайным (прерывистым) образом, чтобы напоминать загрузку данных.
 
-As you will notice, the design is partially complete already. A previous engineer left (quit) before finishing the assignment.
+Как вы заметите, дизайн уже частично завершен. Предыдущий инженер ушел(уволился) до завершения задания.
 
-Note the timing diagrams in the Verification tab. When you Simulate, your outputs should match those expected values as indicated.
+Обратите внимание на временные диаграммы на вкладке «Проверка». Когда вы симулируете, ваши результаты должны соответствовать ожидаемым значениям, как указано.
 
-Let the simulation run until it has passed all of the test cases to make sure you have a proper solution.
+Пусть симуляция запускается до тех пор, пока не пройдут все тестовые случаи, чтобы убедиться, что у вас есть правильное решение.
 
 Jie. 
 
@@ -15,12 +15,12 @@ Jie.
 
 From: Carl Tesky <carl@longteng-co-ltd.gd.cn>
 
-I’m absolutely certain you’ll do better than that last person.
+Я абсолютно уверен, что вы справитесь лучше, чем этот последний человек.
 
 ----------- (Completion)
 
 From: 张杰 <zhangjie@longteng-co-ltd.gd.cn>
 
-Thanks for your prompt work on the blinking lights. Looks OK.
+Спасибо за вашу оперативную работу над мигающими огнями. Выглядит хорошо
 
 Jie.
