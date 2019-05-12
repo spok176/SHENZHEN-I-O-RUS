@@ -1,10 +1,10 @@
-* *card-reader* is a non-blocking XBus input connected to a magnetic card reader.
-* *cash-20*, *cash-50*, and *cash-100* are simple inputs connected to a mechanism that accepts and detects ¥20, ¥50, and ¥100 bills.
-* *network* is an XBus output connected to a network interface.
-* The user initializes a transaction by inserting their account card, indicated by an 8-digit data packet from *card-reader*.
-* The user then inserts money as indicated by the *cash* signals.
+* *card-reader* это неблокирующий input(вход) XBus, подключенный к считывателю магнитных карт.
+* *cash-20*, *cash-50*, and *cash-100* это simple inputs связанные с механизмом, который отвечают за прием и проверку банкнот номиналом  ¥20, ¥50, и ¥100.
+* *network* это output(выход) XBus подключенный к сетевому интерфейсу.
+* Пользователь инициализирует транзакцию, вставив свою учетную карточку, обозначенную 8-значным пакетом данных из  *card-reader*.
+* Пользователь затем вставляет монету, и появляется сигнал *cash*.
 
 ##############
 
-* The user finalizes a transaction by ejecting their account card, indicated by a value of -1 from *card-reader*.
-* When a transaction is finished, the 8-digit account number and the total amount of the deposit should be transmitted over the *network* to the bank.
+* Пользователь завершает транзакцию, удаляя свою учетную карточку, обозначенную значением -1 из *card-reader*.
+* Когда транзакция завершена, 8-значный номер счета и общая сумма депозита должны быть переданы в банк по *network*.

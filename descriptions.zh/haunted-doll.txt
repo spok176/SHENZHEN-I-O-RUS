@@ -1,5 +1,5 @@
-* *random* is a simple input connected to a random number generator.
-* *speaker* is a simple output connected to a miniature, self-amplified audio speaker.
-* When a value of 1 is randomly generated, play the SINISTER GIGGLE sound effect.
-* When a value of 2 is randomly generated, play the BLOOD-CURDLING CRY sound effect.
-* Look in the “Supplemental Data” section of the manual for the audio data that Carl found for these sound effects.
+* *random* это simple input подключенный к генератору случайных чисел.
+* *speaker* is a simple output connected подключенный к миниатюрному аудиоусилителю с динамиком.
+* Когда значение 1 генерируется случайным образом, включите звуковой эффект SINISTER GIGGLE.
+* Когда значение 2 генерируется случайным образом, включите звуковой эффект BLOOD-CURDLING CRY.
+* В разделе “Supplemental Data” руководства приведены аудиоданные, найденные Карлом для этих звуковых эффектов.

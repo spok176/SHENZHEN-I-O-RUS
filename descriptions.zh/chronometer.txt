@@ -1,10 +1,10 @@
-* *start-stop* and *reset-off* are simple inputs connected to buttons.
-* *display* is an XBus display output corresponding to a numeric LCD screen.
-* The chronometer is initially "off", but can be "turned on" by pressing the *start-stop* button.
-* The chronometer can then be started by pushing the *start-stop* button, at which point the *display* will begin incrementing by 1 for each 2 time units that elapse.
-* The chronometer can then be stopped by pushing the *start-stop* button again.
+* *start-stop* и *reset-off* это simple inputs подключенный к кнопкам.
+* *display* это output(вывод) дисплея XBus, соответствующий цифровому ЖК-экрану.
+* Хронометр изначально "off", но его можно "turned on" нажатием кнопки *start-stop*.
+* Затем хронометр можно запустить, нажав кнопку *start-stop* после чего *display* начнет увеличиваться на 1 для каждых 2 прошедших временных единиц.
+* Затем хронометр можно остановить, нажав кнопку *start-stop* еще раз.
 
 ##############
 
-* If the *reset* button is pushed when the chronometer is "on" but not running it will either reset to 0 (if the current count is greater than 0) or turn "off" (if the current count is 0).
-* If the *reset* button is pushed when the chronometer is running it has no effect.
+* Если кнопка *reset* нажата, когда хронометр "on" но не работает, то он либо сбросится до 0 (если текущий счетчик больше 0), либо "off" (если текущий счетчик равен 0).
+* Если кнопка *reset* нажата во время работы хронометра, это не имеет никакого эффекта.
